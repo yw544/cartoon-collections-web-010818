@@ -8,8 +8,9 @@ end
 def summon_captain_planet(summon)# code an argument here
   # Your code here
   summon.collect do |elements|
-    elements.capitalize
-    puts "#{elements}!"
+    elements.capitalize<<"!"
+
+
   end
 end
 
